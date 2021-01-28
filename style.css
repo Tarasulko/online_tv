@@ -1,0 +1,127 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 40px 40px;
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  left: 0px;
+  top: 626px;
+  background: linear-gradient(180deg, rgba(34, 34, 36, 0) 0%, #222224 39.58%),
+    linear-gradient(89.96deg, #343537 0.06%, #4a5055 50.58%, #343537 100%);
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1000px;
+  height: 213px;
+  font-family: Montserrat;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.watch__seasons {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  margin: 0px 0px 8px 0px;
+}
+
+.watch__season {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  width: 94px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.watch__season-hover {
+  background: #4c4c50;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.watch__episodes {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  margin: 8px 0px 0px 0px;
+}
+
+.watch__episode {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 157px;
+  /* border: 1px solid red; */
+  margin: 0px 10px 0px 10px;
+}
+
+.watch__episode:first-child {
+  margin: 0px 10px 0px 0px;
+}
+
+.watch__episode:last-child {
+  margin: 0px 0px 0px 10px;
+}
+
+.watch__episode-presentation {
+  display: flex;
+  flex-direction: row;
+  width: 440px;
+}
+
+.watch__episode-description {
+  /* width: 220px; */
+  flex-basis: 50%;
+}
+
+.watch__episode-description p {
+  display: block;
+  height: 120px;
+  padding: 16px 16px 16px 16px;
+}
+
+.watch__episode-video {
+  width: 220px;
+  height: 120px;
+  background-image: url(./img/video.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.watch__episode-video-hover {
+  width: 220px;
+  height: 120px;
+  background-image: url(./img/video.jpg);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.watch__episode-number {
+  width: inherit;
+  height: 37px;
+}
+
+.watch__episode-number-hover {
+  background-color: #ffcc00;
+  border-radius: 0px 0px 10px 10px;
+  color: black;
+}
+
+.watch__episode-number-text {
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
