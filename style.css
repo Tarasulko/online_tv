@@ -17,7 +17,7 @@
   flex-direction: column;
   align-items: flex-start;
   width: 1000px;
-  height: 213px;
+  min-height: 213px;
   font-family: Montserrat;
   font-style: normal;
   color: #ffffff;
@@ -52,42 +52,56 @@
 .watch__episodes {
   display: flex;
   flex-direction: row;
-  width: inherit;
-  margin: 8px 0px 0px 0px;
+  min-width: 220px;
+  min-height: 258px;
+  /* border: 3px solid red; */
 }
 
 .watch__episode {
   display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-bottom: 30px;
+  /* border: 3px solid black; */
+}
+
+.watch__episode-container {
+  display: flex;
   flex-direction: column;
   width: 220px;
   height: 157px;
-  /* border: 1px solid red; */
   margin: 0px 10px 0px 10px;
+  /* border: 3px solid green; */
 }
 
-.watch__episode:first-child {
+.watch__episode-container:first-child {
   margin: 0px 10px 0px 0px;
 }
 
-.watch__episode:last-child {
-  margin: 0px 0px 0px 10px;
+.watch__description {
+  width: 220px;
+  height: 157px;
+  padding-right: 26px;
+  padding-bottom: 46px;
+  padding-left: 6px;
+  /* border: 3px solid yellow; */
 }
 
-.watch__episode-presentation {
+.watch__description-container {
   display: flex;
-  flex-direction: row;
-  width: 440px;
-}
-
-.watch__episode-description {
-  /* width: 220px; */
-  flex-basis: 50%;
-}
-
-.watch__episode-description p {
-  display: block;
+  align-items: center;
   height: 120px;
-  padding: 16px 16px 16px 16px;
+  /* border: 3px solid blue; */
+}
+
+.watch__description-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
 }
 
 .watch__episode-video {
