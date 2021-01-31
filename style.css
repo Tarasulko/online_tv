@@ -10,18 +10,17 @@
 }
 
 .watch {
-  /* display: block; */
 }
 
 .watch-container {
-  /* display: flex;
-  flex-direction: column; */
   margin-bottom: 20px;
 }
 
 .watch__seasons {
   display: flex;
   flex-direction: row;
+  /* buttons wrapped */
+  flex-wrap: wrap;
   margin-bottom: 16px;
 }
 
@@ -43,6 +42,8 @@
 
 .watch__episodes {
   display: flex;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .watch__episode {
@@ -131,7 +132,6 @@
   display: flex;
   align-items: flex-end;
   height: 32px;
-  /* border: 1px solid #000; */
 }
 
 .title__text {
@@ -140,11 +140,13 @@
   line-height: 22px;
   word-spacing: 0.1em;
   text-align: left;
-  /* border: 1px solid red; */
+}
+
+.actors-and-humans__title {
+  margin-bottom: 20px;
 }
 
 .actors-and-humans {
-  /* display: block; */
 }
 
 .actors-and-humans__container {
@@ -153,15 +155,17 @@
 
 .actors-and-humans__actors {
   display: flex;
-  min-height: 169px;
-  border: 1px solid #000;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow-x: auto;
+  /* border: 1px solid #000; */
 }
 
 .actors-and-humans__actor {
   width: 100px;
   margin-left: 15px;
   margin-right: 15px;
-  border: 1px solid rgb(12, 46, 236);
+  /* border: 1px solid rgb(12, 46, 236); */
 }
 
 .actors-and-humans__actor:first-child {
@@ -185,7 +189,6 @@
   display: flex;
   align-items: center;
   min-height: 44px;
-  /* border: 1px solid rgb(217, 7, 236); */
 }
 
 .actors__actor-realname-text {
