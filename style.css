@@ -1,26 +1,20 @@
-body {
-  padding: 0 25%;
-}
-
 .content {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10px 40px 40px;
-  width: 1080px;
-  height: 1920px;
   background: linear-gradient(180deg, rgba(34, 34, 36, 0) 0%, #222224 39.58%),
     linear-gradient(89.96deg, #343537 0.06%, #4a5055 50.58%, #343537 100%);
 }
 
+.content__container {
+  position: relative;
+  display: inline-block;
+  left: 25%;
+  min-width: 480px;
+  /* border: 1px solid rgb(168, 0, 0); */
+}
+
 .watch {
-  display: block;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 1000px;
-  min-height: 213px;
+  min-width: 480px;
 }
 
 .watch__seasons {
@@ -36,7 +30,7 @@ body {
   align-items: center;
   padding: 0px 16px;
   min-width: 98px;
-  height: 42px;
+  height: 40px;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
