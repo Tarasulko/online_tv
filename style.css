@@ -185,13 +185,13 @@
   background-position: center;
 }
 
-.actors__actor-realname {
+.actors-and-humans__actor-realname {
   display: flex;
   align-items: center;
   min-height: 44px;
 }
 
-.actors__actor-realname-text {
+.actors-and-humans__actor-realname-text {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -200,14 +200,14 @@
   /* border: 1px solid rgb(1, 255, 1); */
 }
 
-.actors__actor-nickname {
+.actors-and-humans__actor-nickname {
   display: flex;
   justify-content: center;
   padding-top: 10px;
   /* border: 1px solid rgb(226, 223, 9); */
 }
 
-.actors__actor-nickname-text {
+.actors-and-humans__actor-nickname-text {
   opacity: 50%;
   font-size: 12px;
   font-weight: 500;
