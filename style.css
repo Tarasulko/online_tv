@@ -156,16 +156,12 @@
 .actors-and-humans__actors {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
-  overflow-x: auto;
-  /* border: 1px solid #000; */
 }
 
 .actors-and-humans__actor {
   width: 100px;
   margin-left: 15px;
   margin-right: 15px;
-  /* border: 1px solid rgb(12, 46, 236); */
 }
 
 .actors-and-humans__actor:first-child {
@@ -197,14 +193,12 @@
   line-height: 17px;
   text-align: center;
   opacity: 0.9;
-  /* border: 1px solid rgb(1, 255, 1); */
 }
 
 .actors-and-humans__actor-nickname {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  /* border: 1px solid rgb(226, 223, 9); */
 }
 
 .actors-and-humans__actor-nickname-text {
@@ -213,13 +207,101 @@
   font-weight: 500;
   line-height: 15px;
   text-align: center;
-  /* border: 1px solid rgb(1, 184, 240); */
 }
 
 .same {
-  width: 1000px;
-  height: 464px;
-  /* border: 1px solid #000; */
+}
+
+.same-container {
+  margin-bottom: 20px;
+}
+
+.same__title {
+  margin-bottom: 20px;
+}
+
+.same__cards {
+  display: flex;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.same__card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.same__card:first-child {
+  margin-left: 0px;
+}
+
+.same__card:last-child {
+  margin-right: 0px;
+}
+
+.same__card-photo {
+  width: 240px;
+  height: 320px;
+  margin-bottom: 12px;
+  background-image: url(./img/filmSame.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.same__card-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.same__card-description-name {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 14px;
+  margin-bottom: 8px;
+}
+
+.same__card-description-name-text {
+  font-size: 16px;
+}
+
+.same__card-description-date {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 14px;
+  margin-bottom: 8px;
+}
+
+.same__card-description-date-text {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.same__card-description-buy {
+  display: flex;
+  flex-direction: row;
+  padding-left: 14px;
+  padding-bottom: 12px;
+}
+
+.same__card-description-buy-purchase {
+  margin-right: 10px;
+}
+
+.same__card-description-buy-purchase-text {
+  font-size: 12px;
+  color: #ff8a00;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.same__card-description-buy-price {
+}
+
+.same__card-description-buy-price-text {
+  font-size: 12px;
+  opacity: 0.5;
 }
 
 .about {
