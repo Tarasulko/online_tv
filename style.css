@@ -19,7 +19,6 @@
 .watch__seasons {
   display: flex;
   flex-direction: row;
-  /* buttons wrapped */
   flex-wrap: wrap;
   margin-bottom: 16px;
 }
